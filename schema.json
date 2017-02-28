@@ -1,0 +1,214 @@
+{
+	"fields": [
+		{
+			"name": "AssetNumber",
+			"title": "AssetNumber",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Company",
+			"title": "Company",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "CostCentre",
+			"title": "CostCentre",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "MajorCategory",
+			"title": "MajorCategory",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "MinorCategory",
+			"title": "MinorCategory",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "LifeInMonths",
+			"title": "LifeInMonths",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "Cost",
+			"title": "Cost",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "ACCDEPN",
+			"title": "ACCDEPN",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "NBV",
+			"title": "NBV",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "YTDDEPN",
+			"title": "YTDDEPN",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "DateInService",
+			"title": "DateInService",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "MonthAdded",
+			"title": "MonthAdded",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m"
+			}
+		},
+		{
+			"name": "AssetCCC",
+			"title": "AssetCCC",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "BU",
+			"title": "BU",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "AssetKey",
+			"title": "AssetKey",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Flag1",
+			"title": "Flag1",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Flag2",
+			"title": "Flag2",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Flag3",
+			"title": "Flag3",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "AssetTag",
+			"title": "AssetTag",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "SerialNumber",
+			"title": "SerialNumber",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "ContactTel",
+			"title": "ContactTel",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "RefC",
+			"title": "RefC",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "CheckedBy",
+			"title": "CheckedBy",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "CheckedDate",
+			"title": "CheckedDate",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "NBVCostCentre",
+			"title": "NBVCostCentre",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "AdditionalInformation",
+			"title": "AdditionalInformation",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		}
+	]
+}
